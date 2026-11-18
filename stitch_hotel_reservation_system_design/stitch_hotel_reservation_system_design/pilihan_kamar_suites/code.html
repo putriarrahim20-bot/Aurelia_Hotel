@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-lowest":"#ffffff","surface-container-highest":"#d3e4fe","on-tertiary-fixed":"#2a1700","surface":"#f8f9ff","surface-subtle":"#F1F5F9","primary":"#000000","gold-light":"#FEF3C7","primary-fixed":"#dae2fd","surface-tint":"#565e74","on-error":"#ffffff","on-tertiary-fixed-variant":"#653e00","on-secondary":"#ffffff","surface-bright":"#f8f9ff","on-primary-fixed-variant":"#3f465c","surface-variant":"#d3e4fe","surface-container-low":"#eff4ff","surface-sand":"#F8FAFC","outline":"#76777d","on-tertiary":"#ffffff","on-secondary-container":"#663500","tertiary-fixed-dim":"#ffb95f","on-primary-fixed":"#131b2e","inverse-primary":"#bec6e0","surface-container":"#e5eeff","tertiary-container":"#2a1700","gold-muted":"#B45309","border-hairline":"#E2E8F0","on-primary":"#ffffff","tertiary":"#000000","on-primary-container":"#7c839b","surface-linen":"#FDFCFB","on-surface-variant":"#45464d","error-container":"#ffdad6","on-background":"#0b1c30","inverse-on-surface":"#eaf1ff","error":"#ba1a1a","primary-fixed-dim":"#bec6e0","on-secondary-fixed":"#2f1500","on-secondary-fixed-variant":"#6e3900","secondary-container":"#fe932c","surface-dim":"#cbdbf5","secondary":"#904d00","background":"#f8f9ff","on-surface":"#0b1c30","secondary-fixed-dim":"#ffb77d","inverse-surface":"#213145","tertiary-fixed":"#ffddb8","on-error-container":"#93000a","surface-container-high":"#dce9ff","primary-container":"#131b2e","on-tertiary-container":"#b87500","outline-variant":"#c6c6cd","secondary-fixed":"#ffdcc3"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"gutter-mobile":"1rem","gutter":"1.5rem","space-lg":"1.5rem","space-xl":"2.5rem","space-md":"1rem","margin":"3rem","space-xs":"0.25rem","margin-mobile":"1.25rem","space-sm":"0.5rem"},fontFamily:{"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"label-sm":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"headline-sm":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"display-mobile":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"display":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},fontSize:{"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-lg":["36px",{"lineHeight":"44px","fontWeight":"500"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"display-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","fontWeight":"500"}],"display":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface-linen font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-8"><a class="flex items-center gap-3 group" data-path="home" href="#"><img alt="Aurelia Hotels Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrDdZR1Vlww7l9edbaSKfUaRdWYI6B0GhkfSA-qrAWPDYymaPSK3biqq-AV9MsxZ60BodVfPNXp128YmWJFFXFqzYSmJI3MchU_SdBzo4k5D-XCLTPvYNnPV5rPiQVR5LNzZHoTmJlrS-nQt68ZTNR4cuUcwRcw_C3WMmeQ4y2q5rZg8-oNdOPOCmTJVQG1t76GQtcluEh3KqMaqcZu12tLRankTU9tnXBTAZdxZrUVAPg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-wider uppercase text-primary leading-none">Aurelia</span><span class="font-label-sm text-label-sm tracking-[0.2em] text-gold-muted uppercase mt-0.5">Hotels &amp; Resorts</span></div></a><nav class="hidden xl:flex items-center gap-7" data-active-classes="text-gold-muted font-bold"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="explore-destinations" href="#">Explore Destinations</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="rooms-and-suites" href="#">Rooms &amp; Suites</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="curated-experiences" href="#">Experiences</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="special-offers" href="#">Special Offers</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="my-bookings" href="#">My Bookings</a></nav></div><div class="flex items-center gap-5"><div class="hidden lg:flex items-center gap-3"><div class="flex items-center gap-1 text-on-surface-variant px-2.5 py-1.5 rounded-lg bg-surface hover:bg-surface-container hover:text-on-surface transition-colors cursor-pointer"><span class="font-label-md text-label-md uppercase">IDR</span><span class="material-symbols-outlined text-[16px]">expand_more</span></div><div class="flex items-center gap-1 text-on-surface-variant px-2.5 py-1.5 rounded-lg bg-surface hover:bg-surface-container hover:text-on-surface transition-colors cursor-pointer"><span class="font-label-md text-label-md uppercase">EN</span><span class="material-symbols-outlined text-[16px]">expand_more</span></div></div><a class="relative inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-gradient-to-r from-amber-600 via-amber-500 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-on-primary font-label-md text-label-md shadow-sm transition-all" data-path="book-a-stay" href="#"><span class="font-label-md text-label-md uppercase tracking-wider text-on-primary">Book a Stay</span></a><div class="flex items-center pl-2"><a class="flex items-center gap-2 group ring-2 ring-gold-muted/30 rounded-full p-0.5 hover:ring-gold-muted transition-all" data-path="member-portal" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOTdGlSOZpS_PaYmL6gPGBWEvyOx4JeyBWOfvIGC6Wr3RGPYinEopAgmG3td_avU_0UfkCv1NDWmfxKt4TWNT3IZLSyPcuPL3sTh_IDzli1mr4Tnruy62pHpOe5M6WDCk4aKmfxgZ7kU2CwJxo1L3enqsAGVyw47-DPMzC_n2KKbjAHTb9_Y-NQSWkG_-NfM1gP3YGbfEDilG-N-ZzvJv697i6A0Pt8i94DTddd31v"/></a></div></div></div></header><main class="w-full pt-20 bg-surface-linen min-h-screen"><div class="flex flex-col w-full">
+<!-- SEARCH SUMMARY FLOATING STRIP -->
+<section class="w-full max-w-[1440px] mx-auto px-6 lg:px-12 py-6">
+<div class="bg-surface-container-lowest shadow-md rounded-xl p-4 lg:p-6 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
+<div class="flex flex-wrap items-center gap-y-3 gap-x-6">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-gold-light flex items-center justify-center text-gold-muted">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-gold-muted uppercase tracking-wider block">Destinasi Terpilih</span>
+<h2 class="font-headline-sm text-headline-sm text-primary leading-tight">Bali Sanctuary Resort &amp; Spa</h2>
+</div>
+</div>
+<div class="hidden sm:block w-px h-8 bg-border-hairline"></div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-subtle flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Durasi Menginap</span>
+<p class="font-label-lg text-label-lg text-on-surface">18 – 22 Mei 2025 <span class="text-gold-muted font-normal">(4 Malam)</span></p>
+</div>
+</div>
+<div class="hidden sm:block w-px h-8 bg-border-hairline"></div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-subtle flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">group</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Kapasitas</span>
+<p class="font-label-lg text-label-lg text-on-surface">2 Dewasa • 1 Kamar</p>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-3 w-full lg:w-auto pt-2 lg:pt-0 justify-end">
+<button class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-surface-subtle hover:bg-surface-sand text-on-surface font-label-md text-label-md transition-colors w-full sm:w-auto justify-center" id="toggle-search-btn">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+          Ubah Pencarian
+        </button>
+</div>
+</div>
+<!-- COLLAPSIBLE EDIT SEARCH PANEL -->
+<div class="hidden mt-4 bg-surface-container-lowest p-6 rounded-xl shadow-lg transition-all" id="search-edit-drawer">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase block mb-1.5">Resor / Wilayah</label>
+<div class="flex items-center gap-2 px-3 py-2.5 bg-surface-subtle rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-gold-muted">apartment</span>
+<input class="bg-transparent font-body-sm text-body-sm text-on-surface w-full outline-none" type="text" value="Bali Sanctuary Resort &amp; Spa, Uluwatu"/>
+</div>
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase block mb-1.5">Check-in / Check-out</label>
+<div class="flex items-center gap-2 px-3 py-2.5 bg-surface-subtle rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-gold-muted">date_range</span>
+<input class="bg-transparent font-body-sm text-body-sm text-on-surface w-full outline-none" type="text" value="18 Mei 2025 - 22 Mei 2025"/>
+</div>
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase block mb-1.5">Tamu &amp; Kamar</label>
+<div class="flex items-center gap-2 px-3 py-2.5 bg-surface-subtle rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-gold-muted">person</span>
+<input class="bg-transparent font-body-sm text-body-sm text-on-surface w-full outline-none" type="text" value="2 Tamu Dewasa, 1 Kamar"/>
+</div>
+</div>
+<div class="flex items-end">
+<button class="w-full py-2.5 bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider rounded-lg hover:bg-surface-tint transition-colors" onclick="document.getElementById('search-edit-drawer').classList.add('hidden')">
+            Perbarui Hasil
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- EDITORIAL HERO TITLE & META STRIP -->
+<section class="w-full max-w-[1440px] mx-auto px-6 lg:px-12 pt-2 pb-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="font-label-sm text-label-sm text-gold-muted uppercase tracking-[0.2em]">Sanctuary Portfolio</span>
+<span class="w-8 h-px bg-gold-muted"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">4 Kategori Tersedia</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary">Koleksi Kamar &amp; Private Suites</h1>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Urutkan:</span>
+<div class="relative inline-block">
+<select class="bg-surface-container-lowest text-on-surface font-label-md text-label-md px-4 py-2 pr-9 rounded-lg appearance-none shadow-sm cursor-pointer outline-none">
+<option>Rekomendasi Utama</option>
+<option>Harga: Rendah ke Tinggi</option>
+<option>Harga: Tinggi ke Rendah</option>
+<option>Ukuran Kamar Terluas</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-2.5 pointer-events-none text-[18px] text-on-surface-variant">expand_more</span>
+</div>
+</div>
+</div>
+</section>
+<!-- TWO-COLUMN MAIN CONTENT -->
+<section class="w-full max-w-[1440px] mx-auto px-6 lg:px-12 pb-20">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- LEFT COLUMN: FILTER CERDAS (SMART FILTERS) -->
+<aside class="lg:col-span-4 xl:col-span-3 space-y-6">
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-md space-y-6">
+<div class="flex items-center justify-between pb-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] text-gold-muted">filter_list</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Filter Presisi</h3>
+</div>
+<button class="font-label-sm text-label-sm text-gold-muted hover:text-secondary uppercase tracking-wider" id="reset-filter-btn">Reset</button>
+</div>
+<!-- RENTANG HARGA SLIDER -->
+<div class="space-y-3">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-primary">Rentang Harga / Malam</span>
+<span class="font-label-sm text-label-sm text-gold-muted font-bold" id="price-display">Maks. Rp 18.000.000+</span>
+</div>
+<input class="w-full accent-primary cursor-pointer h-1 bg-surface-subtle rounded-lg" id="price-range" max="20000000" min="2500000" step="500000" type="range" value="20000000"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Rp 2,5 Jt</span>
+<span>Rp 20 Jt+</span>
+</div>
+</div>
+<div class="w-full h-px bg-surface-subtle"></div>
+<!-- TIPE KAMAR -->
+<div class="space-y-3">
+<span class="font-label-md text-label-md text-primary block">Tipe Properti &amp; Kamar</span>
+<div class="space-y-2">
+<label class="flex items-center gap-3 cursor-pointer group">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-0 accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Deluxe Ocean View</span>
+<span class="ml-auto font-label-sm text-label-sm text-on-surface-variant">2</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-0 accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Premier Suite</span>
+<span class="ml-auto font-label-sm text-label-sm text-on-surface-variant">4</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-0 accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Private Pool Villa</span>
+<span class="ml-auto font-label-sm text-label-sm text-on-surface-variant">3</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-0 accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Presidential Villa</span>
+<span class="ml-auto font-label-sm text-label-sm text-on-surface-variant">1</span>
+</label>
+</div>
+</div>
+<div class="w-full h-px bg-surface-subtle"></div>
+<!-- TEMPAT TIDUR -->
+<div class="space-y-3">
+<span class="font-label-md text-label-md text-primary block">Konfigurasi Tempat Tidur</span>
+<div class="space-y-2">
+<label class="flex items-center gap-3 cursor-pointer group">
+<input checked="" class="w-4 h-4 text-primary accent-primary cursor-pointer" name="bed-type" type="radio"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Semua Opsi Tempat Tidur</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 text-primary accent-primary cursor-pointer" name="bed-type" type="radio"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">King Bed (180x200)</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 text-primary accent-primary cursor-pointer" name="bed-type" type="radio"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Twin Bed (2 Ranjang Terpisah)</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 text-primary accent-primary cursor-pointer" name="bed-type" type="radio"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Super King Master (200x200)</span>
+</label>
+</div>
+</div>
+<div class="w-full h-px bg-surface-subtle"></div>
+<!-- FASILITAS UNGGULAN -->
+<div class="space-y-3">
+<span class="font-label-md text-label-md text-primary block">Fasilitas Unggulan</span>
+<div class="space-y-2">
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Private Pool</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Bathtub Marmer Mewah</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Pemandangan Garis Pantai (Oceanfront)</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Balkon Pribadi Terbuka</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Akses Executive Club Lounge</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Sarapan Buffet Gourmet Gratis</span>
+</label>
+</div>
+</div>
+<div class="w-full h-px bg-surface-subtle"></div>
+<!-- KEBIJAKAN PEMBATALAN -->
+<div class="space-y-3">
+<span class="font-label-md text-label-md text-primary block">Fleksibilitas Reservasi</span>
+<div class="space-y-2">
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Bebas Pembatalan (H-3)</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer group">
+<input class="w-4 h-4 rounded text-primary accent-primary cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface group-hover:text-primary transition-colors">Bayar Langsung di Hotel</span>
+</label>
+</div>
+</div>
+</div>
+<!-- CONCIERGE ASSISTANCE CALLOUT -->
+<div class="bg-primary text-on-primary p-6 rounded-xl shadow-md space-y-3 relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-24 h-24 rounded-full bg-surface-tint/20 blur-xl pointer-events-none"></div>
+<span class="font-label-sm text-label-sm text-gold-light uppercase tracking-wider block">Bespoke Concierge</span>
+<h4 class="font-headline-sm text-headline-sm text-on-primary">Butuh Rekomendasi Khusus?</h4>
+<p class="font-body-sm text-body-sm text-primary-fixed-dim">Spesialis reservasi kami siap mengkurasi vila privat atau suite impian Anda di Uluwatu.</p>
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-gold-light hover:underline pt-2" href="#">
+<span class="material-symbols-outlined text-[16px]">call</span> Hubungi Concierge (24 Jam)
+          </a>
+</div>
+</aside>
+<!-- RIGHT COLUMN: DAFTAR KAMAR MEWAH -->
+<main class="lg:col-span-8 xl:col-span-9 space-y-6">
+<!-- KARTU KAMAR 1: Royal Oceanfront Suite -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col xl:flex-row group">
+<div class="relative xl:w-2/5 h-72 xl:h-auto min-h-[260px] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Luxurious beachfront hotel suite in Bali with expansive panoramic ocean views, teak wood accents, king bed dressed in crisp white linen, subtle amber lighting and sheer floor-to-ceiling drapery overlooking the azure sea." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1ncnbAN6fwFdnaXAfBBYmE7EtsX-DmxcZ4mJROqsjDJqWpiw9PznDQxM604AsowAKeuwiJ9p_2Y5BDdD4dWDJa-SU6QYLEcYqJ34L864RyOcZdKtTBkqFYedastJeD8oBdamYUxeVlkn3e570PYqtaTT5QdjArmuHFODFp_TuGHn6TC-TScoqy_Y3HVe1nRJRljmMMoc9Y7JMKrCWr9MZI7j2aWMKNWl0V3JP2kWs"/>
+<div class="absolute top-4 left-4 flex gap-2">
+<span class="bg-primary/80 backdrop-blur-md text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-wider">Favorit Tamu</span>
+<span class="bg-gold-light text-on-tertiary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span> 4.96
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-primary/70 backdrop-blur-sm text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded">
+              1 / 8 Foto
+            </div>
+</div>
+<div class="p-6 xl:w-3/5 flex flex-col justify-between space-y-4">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1">
+<span class="font-label-sm text-label-sm text-gold-muted uppercase tracking-wider">Level 4 • Ocean Wing</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-gold-muted">verified</span> 128 Ulasan Bintang 5
+                </span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors">Royal Oceanfront Suite</h3>
+<!-- SPEC METADATA PILLS -->
+<div class="flex flex-wrap items-center gap-y-1 gap-x-3 text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">aspect_ratio</span> 85 m²</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">bed</span> 1 King Bed</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">water</span> Ocean View</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">hot_tub</span> Private Jacuzzi</span>
+</div>
+<!-- VALUE INCLUSIONS -->
+<div class="mt-4 p-3 bg-surface-subtle rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-gold-muted" style="font-variation-settings: 'FILL' 1;">restaurant</span>
+<span class="font-label-md text-label-md">Termasuk Sarapan Gourmet &amp; Afternoon Tea</span>
+</div>
+<span class="font-label-sm text-label-sm text-gold-muted bg-surface-container-lowest px-2 py-0.5 rounded">Akses Executive Lounge</span>
+</div>
+</div>
+<!-- PRICE AND CTA ROW -->
+<div class="pt-4 border-t border-surface-subtle flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+<div>
+<div class="flex items-center gap-2">
+<span class="font-body-sm text-body-sm line-through text-on-surface-variant">Rp 6.200.000</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold bg-secondary-fixed/30 px-1.5 py-0.5 rounded">Hemat 22%</span>
+</div>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-md text-headline-md text-primary">Rp 4.850.000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ malam</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Sudah termasuk pajak &amp; biaya resor</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-4 py-2.5 rounded-lg bg-surface-subtle hover:bg-surface-sand text-on-surface font-label-md text-label-md transition-colors">
+                  Detail Kamar
+                </button>
+<button class="px-6 py-2.5 rounded-lg bg-primary hover:bg-surface-tint text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-sm transition-all">
+                  Pilih Kamar
+                </button>
+</div>
+</div>
+</div>
+</article>
+<!-- KARTU KAMAR 2: Private Pool Cliff Villa -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col xl:flex-row group">
+<div class="relative xl:w-2/5 h-72 xl:h-auto min-h-[260px] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="High-end private cliffside villa in Uluwatu Bali with private infinity swimming pool cantilevered over the Indian ocean, sunloungers on timber deck, tropical minimalist stone architecture at golden hour sunset." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn6Ygpj5zVJL3rAANIWe1wUmzAHMeo9mIPHjUebl-t_NnJaZyxTvHhzaHMI9Gn8LvUru7J-m1jST2P1UqkXE70hrIE20bZ8b9Ud5LK0a3o8e2D9WngDV0qQebkxeXy7iLEA5xUGH0PXBSMpiEfmUYvVNagfkbyA5CUdBnhNhxJ3kyhLj-0MjKAZ9nkmgD7jyBF0p-l_mg5IugKhVxV3sZnu_GWYh37X0_fSjo7ALJt"/>
+<div class="absolute top-4 left-4 flex gap-2">
+<span class="bg-gold-muted text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-wider font-bold">Signature Sanctuary</span>
+<span class="bg-gold-light text-on-tertiary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span> 5.0
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-primary/70 backdrop-blur-sm text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded">
+              1 / 14 Foto
+            </div>
+</div>
+<div class="p-6 xl:w-3/5 flex flex-col justify-between space-y-4">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1">
+<span class="font-label-sm text-label-sm text-gold-muted uppercase tracking-wider">Cliffside Enclave • Private Wing</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-gold-muted">verified</span> 84 Ulasan Sempurna
+                </span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors">Private Pool Cliff Villa</h3>
+<div class="flex flex-wrap items-center gap-y-1 gap-x-3 text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">aspect_ratio</span> 140 m²</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">pool</span> Private Infinity Pool</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">room_service</span> Pelayan Pribadi 24 Jam</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">wb_twilight</span> Sunset View</span>
+</div>
+<div class="mt-4 p-3 bg-surface-subtle rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-gold-muted" style="font-variation-settings: 'FILL' 1;">find_replace</span>
+<span class="font-label-md text-label-md">Welcome Champagne &amp; Floating Breakfast Termasuk</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface bg-surface-container-lowest px-2 py-0.5 rounded">Bebas Pembatalan H-3</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-subtle flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+<div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md text-primary">Rp 9.200.000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ malam</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Termasuk Antar-Jemput Bandara VIP</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-4 py-2.5 rounded-lg bg-surface-subtle hover:bg-surface-sand text-on-surface font-label-md text-label-md transition-colors">
+                  Detail Kamar
+                </button>
+<button class="px-6 py-2.5 rounded-lg bg-primary hover:bg-surface-tint text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-sm transition-all">
+                  Pilih Kamar
+                </button>
+</div>
+</div>
+</div>
+</article>
+<!-- KARTU KAMAR 3: Grand Deluxe Garden View -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col xl:flex-row group">
+<div class="relative xl:w-2/5 h-72 xl:h-auto min-h-[260px] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Serene resort bedroom featuring expansive terrace overlooking lush tropical Balinese gardens, warm ambient lighting, elegant marble bathroom en-suite, bespoke handcrafted furniture and soft earth tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTDaKaRblH3l0LEXsyCKcqreuUT0ua0_41-hQwXrvlDNgl9gDTdXZunyr_8eJyMRXStZ3eEfFsSEqaMLBwjpQZxSKDmgeRUI8LERQsV50vRHsBj-6PnK4LTv9ZHc86NkcVWZXi_mxFVkprfcxl_qHUAhOUas68vfC_bkMP8S_yoEUogxJ04lYUQ25_ksu873OB5wECCfFCCkTVVedwVskPMQGehmlQzeMJoH-DRCnD"/>
+<div class="absolute top-4 left-4 flex gap-2">
+<span class="bg-surface-subtle/90 backdrop-blur-md text-on-surface font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-wider font-semibold">Best Value</span>
+<span class="bg-gold-light text-on-tertiary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span> 4.90
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-primary/70 backdrop-blur-sm text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded">
+              1 / 6 Foto
+            </div>
+</div>
+<div class="p-6 xl:w-3/5 flex flex-col justify-between space-y-4">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1">
+<span class="font-label-sm text-label-sm text-gold-muted uppercase tracking-wider">Garden Pavilion • Lantai 2</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-gold-muted">verified</span> 210 Ulasan Tamu
+                </span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors">Grand Deluxe Garden View</h3>
+<div class="flex flex-wrap items-center gap-y-1 gap-x-3 text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">aspect_ratio</span> 55 m²</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">balcony</span> Balkon Privat</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">bathtub</span> Bathtub Marmer</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">wifi</span> Wi-Fi Ultra-Fast</span>
+</div>
+<div class="mt-4 p-3 bg-surface-subtle rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-gold-muted" style="font-variation-settings: 'FILL' 1;">spa</span>
+<span class="font-label-md text-label-md">Voucher Diskon Spa 20% di Aurelia Wellness</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface bg-surface-container-lowest px-2 py-0.5 rounded">Bayar di Hotel</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-subtle flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+<div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md text-primary">Rp 3.100.000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ malam</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Tarif Fleksibel Standard</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-4 py-2.5 rounded-lg bg-surface-subtle hover:bg-surface-sand text-on-surface font-label-md text-label-md transition-colors">
+                  Detail Kamar
+                </button>
+<button class="px-6 py-2.5 rounded-lg bg-primary hover:bg-surface-tint text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-sm transition-all">
+                  Pilih Kamar
+                </button>
+</div>
+</div>
+</div>
+</article>
+<!-- KARTU KAMAR 4: Aurelia Presidential Sanctuary -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col xl:flex-row group">
+<div class="relative xl:w-2/5 h-72 xl:h-auto min-h-[260px] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Ultra-luxury two-bedroom presidential estate villa perched on cliff edge, Olympic-grade private pool, open-concept dining pavilion, dramatic ocean horizon sunset, modern Indonesian architecture." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUPvhpHcMFwj6eQ6FZNIpH7qDG6PbmHjIfxGHX9wOCffzk4I7qvG0tcGkW7TV9dEZhSP73XgQEVzC7Dbp3aKLBi-H2WzgBAkKgy4mp5GV0-MpVt5bmYJrQryzjuBPkzhvyWC4-ZClsLmTIEhzXxC9AtRZy5ShyoRnRQdMbm5D0-U71TIbEDuPiBfR-e-fUcsalTGKaABLGBRP5COdxrqv7XTb-78TuDjWKmb5wln_v"/>
+<div class="absolute top-4 left-4 flex gap-2">
+<span class="bg-primary text-gold-light font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-wider font-bold">Ultra Luxury Tier</span>
+<span class="bg-gold-light text-on-tertiary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span> 5.0
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-primary/70 backdrop-blur-sm text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded">
+              1 / 22 Foto
+            </div>
+</div>
+<div class="p-6 xl:w-3/5 flex flex-col justify-between space-y-4">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1">
+<span class="font-label-sm text-label-sm text-gold-muted uppercase tracking-wider">The Pinnacle Reserve</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-gold-muted">verified</span> Pelayanan VIP Eksklusif
+                </span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors">Aurelia Presidential Sanctuary</h3>
+<div class="flex flex-wrap items-center gap-y-1 gap-x-3 text-on-surface-variant font-body-sm text-body-sm mt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">aspect_ratio</span> 280 m²</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">meeting_room</span> 2 Kamar Tidur Utama</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">flight_land</span> Helipad Transfer</span>
+<span class="text-border-hairline">•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[18px]">skillet</span> Chef Pribadi</span>
+</div>
+<div class="mt-4 p-3 bg-surface-subtle rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-gold-muted" style="font-variation-settings: 'FILL' 1;">diamond</span>
+<span class="font-label-md text-label-md">Termasuk Akses Yacht Pribadi Selama 3 Jam</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface bg-surface-container-lowest px-2 py-0.5 rounded">Layanan VIP 24/7</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-subtle flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+<div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md text-primary">Rp 19.500.000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ malam</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">All-Inclusive Tailored Experience</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-4 py-2.5 rounded-lg bg-surface-subtle hover:bg-surface-sand text-on-surface font-label-md text-label-md transition-colors">
+                  Detail Kamar
+                </button>
+<button class="px-6 py-2.5 rounded-lg bg-primary hover:bg-surface-tint text-on-primary font-label-md text-label-md uppercase tracking-wider shadow-sm transition-all">
+                  Pilih Kamar
+                </button>
+</div>
+</div>
+</div>
+</article>
+<!-- LUXURY FEATURE COMPARISON TABLE -->
+<div class="mt-12 bg-surface-container-lowest p-6 lg:p-8 rounded-xl shadow-md">
+<div class="mb-6">
+<span class="font-label-sm text-label-sm text-gold-muted uppercase tracking-wider block">Panduan Komparasi</span>
+<h3 class="font-headline-md text-headline-md text-primary">Perbandingan Fasilitas Suites &amp; Villas</h3>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="bg-surface-subtle text-on-surface font-label-md text-label-md">
+<th class="p-3.5 rounded-l-lg">Fitur &amp; Fasilitas</th>
+<th class="p-3.5">Grand Deluxe</th>
+<th class="p-3.5">Royal Oceanfront</th>
+<th class="p-3.5">Cliff Villa</th>
+<th class="p-3.5 rounded-r-lg">Presidential</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-subtle text-on-surface-variant">
+<tr>
+<td class="p-3.5 font-semibold text-primary">Luas Ruangan</td>
+<td class="p-3.5">55 m²</td>
+<td class="p-3.5 font-semibold text-on-surface">85 m²</td>
+<td class="p-3.5 font-semibold text-on-surface">140 m²</td>
+<td class="p-3.5 font-semibold text-on-surface">280 m²</td>
+</tr>
+<tr>
+<td class="p-3.5 font-semibold text-primary">Kolam Renang</td>
+<td class="p-3.5">Resort Pool Akses</td>
+<td class="p-3.5">Private Jacuzzi</td>
+<td class="p-3.5 text-primary font-bold">Infinity Pool Pribadi</td>
+<td class="p-3.5 text-primary font-bold">Olympic Private Pool</td>
+</tr>
+<tr>
+<td class="p-3.5 font-semibold text-primary">Layanan Pelayan (Butler)</td>
+<td class="p-3.5 text-outline-variant">—</td>
+<td class="p-3.5">On-demand</td>
+<td class="p-3.5 text-primary font-bold">24 Jam Standby</td>
+<td class="p-3.5 text-primary font-bold">Tim Butler &amp; Chef Pribadi</td>
+</tr>
+<tr>
+<td class="p-3.5 font-semibold text-primary">Executive Lounge</td>
+<td class="p-3.5 text-outline-variant">—</td>
+<td class="p-3.5"><span class="material-symbols-outlined text-[18px] text-gold-muted" style="font-variation-settings: 'FILL' 1;">check_circle</span></td>
+<td class="p-3.5"><span class="material-symbols-outlined text-[18px] text-gold-muted" style="font-variation-settings: 'FILL' 1;">check_circle</span></td>
+<td class="p-3.5"><span class="material-symbols-outlined text-[18px] text-gold-muted" style="font-variation-settings: 'FILL' 1;">check_circle</span></td>
+</tr>
+<tr>
+<td class="p-3.5 font-semibold text-primary">Transfer Bandara</td>
+<td class="p-3.5 text-outline-variant">—</td>
+<td class="p-3.5">Tersedia Berbayar</td>
+<td class="p-3.5 text-primary font-semibold">Gratis (VIP Alphard)</td>
+<td class="p-3.5 text-primary font-semibold">Helipad / Luxury Limousine</td>
+</tr>
+<tr>
+<td class="p-3.5 font-semibold text-primary">Rating Tamu Terverifikasi</td>
+<td class="p-3.5 font-label-md text-label-md text-on-surface">★ 4.90 / 5.0</td>
+<td class="p-3.5 font-label-md text-label-md text-on-surface">★ 4.96 / 5.0</td>
+<td class="p-3.5 font-label-md text-label-md text-gold-muted">★ 5.0 / 5.0</td>
+<td class="p-3.5 font-label-md text-label-md text-gold-muted">★ 5.0 / 5.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</main>
+</div>
+</section>
+<!-- JAVASCRIPT FOR INTERACTIVE CONTROLS -->
+<script>
+    // Toggle collapsible search strip drawer
+    const toggleSearchBtn = document.getElementById('toggle-search-btn');
+    const searchDrawer = document.getElementById('search-edit-drawer');
+    if (toggleSearchBtn && searchDrawer) {
+      toggleSearchBtn.addEventListener('click', () => {
+        searchDrawer.classList.toggle('hidden');
+      });
+    }
+
+    // Dynamic price slider display
+    const priceRange = document.getElementById('price-range');
+    const priceDisplay = document.getElementById('price-display');
+    if (priceRange && priceDisplay) {
+      priceRange.addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        if (val >= 20000000) {
+          priceDisplay.textContent = 'Maks. Rp 20.000.000+';
+        } else {
+          priceDisplay.textContent = 'Maks. Rp ' + (val / 1000000).toLocaleString('id-ID', { minimumFractionDigits: 1 }) + ' Juta';
+        }
+      });
+    }
+
+    // Reset filters handler
+    const resetBtn = document.getElementById('reset-filter-btn');
+    if (resetBtn && priceRange && priceDisplay) {
+      resetBtn.addEventListener('click', () => {
+        priceRange.value = 20000000;
+        priceDisplay.textContent = 'Maks. Rp 18.000.000+';
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-sand text-on-surface"><div class="max-w-[1440px] mx-auto px-6 lg:px-12 pt-16 pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-16"><div class="lg:col-span-2 space-y-4"><div class="flex items-center gap-3"><span class="font-headline-md text-headline-md tracking-wider uppercase text-primary">Aurelia</span><span class="font-label-sm text-label-sm tracking-[0.2em] text-gold-muted uppercase">Sanctuary of Luxury</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Handcrafted hospitality and tranquil sanctuaries in world-renowned archipelagos and serene coastal retreats.</p><div class="pt-2 space-y-2"><div class="flex items-center gap-2 text-on-surface-variant"><span class="material-symbols-outlined text-[18px] text-gold-muted">support_agent</span><span class="font-body-sm text-body-sm">24/7 Dedicated Bespoke Concierge: +62 361 890 0000</span></div><div class="flex items-center gap-2 text-on-surface-variant"><span class="material-symbols-outlined text-[18px] text-gold-muted">verified</span><span class="font-body-sm text-body-sm">Best Rate Guarantee &amp; Flexible Cancellation</span></div></div></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Aurelia Club</h4><ul class="space-y-2"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer">Member Privileges</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer">Bespoke Upgrades</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer">Private Dining Credits</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer">Reward Status Tiers</li></ul></div><div class="space-y-3"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Destinations</h4><ul class="space-y-2"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer">Uluwatu, Bali</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer">Komodo Sanctuary</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer">Kyoto Haven, Japan</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer">Amalfi Coastal Reserve</li></ul></div><div class="space-y-4"><h4 class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Exclusive Gazette</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Subscribe to receive curated invitations and private seasonal offers.</p><div class="flex flex-col gap-2"><input class="w-full px-3 py-2 text-sm bg-surface-container-lowest text-on-surface rounded-lg outline-none ring-1 ring-outline-variant focus:ring-gold-muted transition-all" placeholder="Enter your email address" type="email"/><button class="w-full py-2 bg-primary hover:bg-surface-tint text-on-primary font-label-md text-label-md rounded-lg uppercase tracking-wider transition-colors">Subscribe</button></div></div></div><div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-6"><div class="flex items-center gap-6"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Trusted Partners</span><div class="flex items-center gap-4 text-on-surface-variant"><span class="material-symbols-outlined text-[24px]">credit_card</span><span class="material-symbols-outlined text-[24px]">lock</span><span class="material-symbols-outlined text-[24px]">contactless</span><span class="material-symbols-outlined text-[24px]">verified_user</span></div></div><div class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-right">© 2025 Aurelia Hotels &amp; Resorts Collection. All Rights Reserved.</div></div></div></footer></body></html>

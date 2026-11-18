@@ -1,0 +1,417 @@
+/* =========================================================
+   Aurelia Hotels & Resorts - Design System Stylesheet
+   Luxury Hospitality & Boutique Stays
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary:       #0F172A;   /* Midnight Navy */
+    --primary-light: #1E293B;
+    --gold:          #B45309;   /* Luxury Gold Muted */
+    --gold-light:    #FEF3C7;
+    --gold-amber:    #D97706;
+    --surface-linen: #FDFCFB;
+    --surface-sand:  #F8FAFC;
+    --surface-subtle:#F1F5F9;
+    --border:        #E2E8F0;
+    --teks:          #0B1C30;
+    --teks-lembut:   #64748B;
+    --putih:         #ffffff;
+    --bayangan:      0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 14px;
+    color: var(--teks);
+    background-color: var(--surface-sand);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, .font-playfair {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+a { color: var(--gold-amber); text-decoration: none; transition: color 0.15s; }
+a:hover { color: var(--gold); }
+
+/* ---------- Tombol Mewah ---------- */
+.tombol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 16px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--putih);
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.tombol:hover {
+    background-color: var(--gold-amber);
+    border-color: var(--gold-amber);
+    color: var(--putih);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(217, 119, 6, 0.25);
+}
+.tombol-besar {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 14px;
+    margin-top: 14px;
+}
+.tombol-kecil {
+    padding: 5px 10px;
+    font-size: 11px;
+    border-radius: 6px;
+}
+.tombol-abu {
+    background-color: var(--surface-subtle);
+    border-color: var(--border);
+    color: var(--teks);
+}
+.tombol-abu:hover {
+    background-color: var(--border);
+    border-color: var(--border);
+    color: var(--primary);
+}
+
+/* ---------- Komponen Kotak & Kartu ---------- */
+.kotak {
+    background: var(--putih);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: var(--bayangan);
+}
+.kotak-sempit { max-width: 440px; margin: 0 auto; }
+.kosong { padding: 40px; text-align: center; color: var(--teks-lembut); }
+.catatan { font-size: 12px; color: var(--teks-lembut); margin: 6px 0; }
+.info {
+    background: var(--surface-subtle);
+    border-left: 4px solid var(--gold-amber);
+    padding: 12px 16px;
+    margin-top: 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    color: var(--teks);
+}
+.pesan-error {
+    background: #FFF1F2;
+    border: 1px solid #FECDD3;
+    color: #BE123C;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+.pesan-sukses {
+    background: #ECFDF5;
+    border: 1px solid #A7F3D0;
+    color: #047857;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+.kanan { text-align: right; }
+.inline { display: inline; }
+small { color: var(--teks-lembut); }
+
+/* ---------- Form Controls ---------- */
+label {
+    display: block;
+    margin: 14px 0 6px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--teks-lembut);
+}
+input[type=text], input[type=email], input[type=password], input[type=number],
+input[type=date], input[type=time], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--teks);
+    background: var(--surface-sand);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    background: var(--putih);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.1);
+}
+input.input-kecil { width: 80px; }
+input[type=file] { padding: 8px 0; }
+
+/* ---------- Badges Status ---------- */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: 9999px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.badge-menunggu { background: #FEF3C7; color: #B45309; }
+.badge-lunas    { background: #D1FAE5; color: #065F46; }
+.badge-info     { background: #DBEAFE; color: #1E40AF; }
+.badge-batal    { background: #F1F5F9; color: #64748B; }
+.badge-abu      { background: #F1F5F9; color: #475569; }
+
+.kode-booking {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--primary);
+}
+
+/* ---------- Tabel ---------- */
+.tabel {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 12px 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.tabel th {
+    background: #F8FAFC;
+    color: #475569;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+}
+.tabel td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #F1F5F9;
+    vertical-align: middle;
+    background: var(--putih);
+    font-size: 13px;
+}
+.tabel tr:last-child td { border-bottom: none; }
+.tabel tr:hover td { background: #F8FAFC; }
+
+/* =========================================================
+   ADMIN PORTAL
+   ========================================================= */
+.admin-wrap {
+    display: flex;
+    min-height: 100vh;
+}
+.admin-sidebar {
+    flex: 0 0 240px;
+    background: var(--primary);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #1E293B;
+}
+.admin-logo {
+    padding: 22px 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--putih);
+    letter-spacing: 1px;
+    background: #0B132B;
+    border-bottom: 1px solid #1E293B;
+}
+.admin-logo small {
+    display: block;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--gold-light);
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+.admin-user {
+    padding: 12px 20px;
+    background: #1E293B;
+    color: #94A3B8;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.admin-sidebar a {
+    display: block;
+    padding: 13px 20px;
+    color: #CBD5E1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    border-left: 3px solid transparent;
+    transition: all 0.2s;
+}
+.admin-sidebar a:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-left-color: var(--gold-amber);
+    color: #fff;
+}
+.admin-sidebar a.aktif {
+    background: rgba(255, 255, 255, 0.1);
+    border-left-color: var(--gold-amber);
+    color: var(--gold-light);
+    font-weight: 700;
+}
+.admin-isi {
+    flex: 1;
+    min-width: 0;
+    padding: 20px;
+    background: var(--surface-sand);
+}
+
+#label-page {
+    margin-bottom: 18px;
+    padding: 14px 20px;
+    background: var(--putih);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--gold-amber);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+#label-page h3 {
+    color: var(--primary);
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+#content {
+    padding: 22px;
+    background: var(--putih);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    overflow-x: auto;
+}
+.sub-judul {
+    margin: 24px 0 10px;
+    color: var(--primary);
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bar-atas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+.bar-atas input[type=text], .bar-atas select {
+    width: auto;
+    min-width: 200px;
+}
+.bar-bawah {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 16px;
+    color: var(--teks-lembut);
+    font-size: 13px;
+}
+
+.opsi { display: flex; gap: 6px; flex-wrap: wrap; }
+.poster-kecil {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    display: block;
+}
+
+.pagination { display: flex; gap: 4px; }
+.pagination a {
+    padding: 6px 12px;
+    color: var(--primary);
+    text-decoration: none;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    background: var(--putih);
+    transition: all 0.15s;
+}
+.pagination a:hover:not(.active) { background: var(--surface-subtle); }
+.pagination a.active {
+    background: var(--primary);
+    color: var(--putih);
+    border-color: var(--primary);
+}
+
+.form-isian { max-width: 720px; }
+.form-isian small { display: block; margin-top: 4px; }
+.dua-kolom { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.tiga-kolom { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; }
+.aksi-form { margin-top: 20px; display: flex; gap: 10px; }
+
+/* ---------- Kartu Statistik Admin ---------- */
+.kartu-statistik {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+.stat {
+    background: var(--putih);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    color: var(--teks-lembut);
+}
+.stat span {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 4px;
+}
+.stat-peringatan span { color: var(--gold-amber); }
+
+@media (max-width: 800px) {
+    .admin-wrap { flex-direction: column; }
+    .admin-sidebar { flex: none; width: 100%; }
+    .dua-kolom, .tiga-kolom { grid-template-columns: 1fr; }
+}
+
+@media print {
+    .admin-sidebar, .tidak-dicetak, #label-page { display: none !important; }
+    body { background: #fff; padding: 0; }
+    #content { margin: 0; border: none; padding: 0; box-shadow: none; }
+}
